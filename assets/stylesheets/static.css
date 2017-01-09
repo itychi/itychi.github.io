@@ -9,6 +9,7 @@
  + Responsive Style：レスポンシブレイアウト
 ===================================================*/
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @font-face
 {
 	font-family: mplus-1p-regular;
@@ -21,7 +22,7 @@
 html * { margin:0; padding:0; }
 html { background-color: #FFFFFF; font-size:100%; }
 body {
-	font-family: mplus-1p-regular, 'PT Sans';
+  font-family: Lato, "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	text-rendering: optimizelegibility;
 	font-size: 14px;
 	font-weight:normal;
