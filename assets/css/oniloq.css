@@ -98,7 +98,7 @@ a {
   float:left;
   height: 100vh;
   width: 50%;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ) fixed,url(../images/profile.jpg);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ) fixed,url(../images/portrait.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
