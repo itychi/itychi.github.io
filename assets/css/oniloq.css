@@ -1,6 +1,70 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/NotoSansCJKjp-Thin.eot");
+  src: url("../fonts/NotoSansCJKjp-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-Thin.woff") format("woff"), url("../fonts/NotoSansCJKjp-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/NotoSansCJKjp-Light.eot");
+  src: url("../fonts/NotoSansCJKjp-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-Light.woff") format("woff"), url("../fonts/NotoSansCJKjp-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/NotoSansCJKjp-DemiLight.eot");
+  src: url("../fonts/NotoSansCJKjp-DemiLight.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-DemiLight.woff") format("woff"), url("../fonts/NotoSansCJKjp-DemiLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/NotoSansCJKjp-Regular.eot");
+  src: url("../fonts/NotoSansCJKjp-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-Regular.woff") format("woff"), url("../fonts/NotoSansCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/NotoSansCJKjp-Medium.eot");
+  src: url("../fonts/NotoSansCJKjp-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-Medium.woff") format("woff"), url("../fonts/NotoSansCJKjp-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/NotoSansCJKjp-Bold.eot");
+  src: url("../fonts/NotoSansCJKjp-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-Bold.woff") format("woff"), url("../fonts/NotoSansCJKjp-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/NotoSansCJKjp-Black.eot");
+  src: url("../fonts/NotoSansCJKjp-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansCJKjp-Black.woff") format("woff"), url("../fonts/NotoSansCJKjp-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/NotoSansMonoCJKjp-Regular.eot");
+  src: url("../fonts/NotoSansMonoCJKjp-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansMonoCJKjp-Regular.woff") format("woff"), url("../fonts/NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/NotoSansMonoCJKjp-Bold.eot");
+  src: url("../fonts/NotoSansMonoCJKjp-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansMonoCJKjp-Bold.woff") format("woff"), url("../fonts/NotoSansMonoCJKjp-Bold.otf") format("opentype");
+}
+
 /* Reset */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -45,7 +109,7 @@ body {
 /* styling */
 html { }
 body {
-  font-family: Helvetica;
+  font-family: "Noto Sans CJK JP", Helvetica;
   font-size: 14px;
 }
 img {
@@ -78,16 +142,16 @@ a {
   justify-content: center;
   align-items: center;
 }
-.tagline {
+.greeting {
 }
-.tagline header {
+.greeting header {
   margin:1rem 0;
-  font-size: 70px;;
-  font-weight: bold;
+  font-size: 80px;;
+  font-weight: 800;
 }
-.tagline p {
+.greeting p {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 100;
 }
 .content::after {
   clear: both;
@@ -117,7 +181,7 @@ a {
 .container h2{
   display:flex;
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 800;
   margin-bottom: 50px;
   text-align:center;
   justify-content: center;
@@ -134,7 +198,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 1em;
-  font-weight: lighter;
+  font-weight: 200;
 }
 .container .fab {
   font-size: 20px;
@@ -162,6 +226,7 @@ footer {
 }
 footer p {
   text-align:center;
+  font-weight: 200;
 }
 
 /* responsive */
